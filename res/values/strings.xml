@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ok">OK</string>
+    
+    <string name="hello">Hello World, TextTuneActivity!</string>
+    <string name="app_name">TextTune</string>
+    <string name="add_song">Add Song</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    
+    <!-- preferences default -->
+    <string name="defaultInterval">360</string>
+    <string name="defaultPlaylistName">TextTune Playlist</string>
+    <string name="defaultTag">song</string>
+    
+    <!-- link -->
+    <string name="prod">http://texttuneyt.appspot.com/texttuneyt?</string>
+    <string name="local">http://localhost:8888/texttuneyt?</string>
+
+    <!-- about menu -->
+    <string name="about_title">About</string>
+    <string name="about_message">TextTune was created by TimmyGCentral. Follow us on <a href="http://www.twitter.com/timmygcentral">Twitter: @timmygcentral</a></string>
+    <string name="about_ok">OK</string>
+	
+    <!-- help menu -->
+    <string name="block">Block Number</string>
+    
+    <!-- help menu -->
+    <string name="help_title">Help</string>
+    <string name="help_message">
+<b>How can I add a song to a YouTube playlist?\n</b>
+<li>You can either add it manually via the add song button or a song can be texted to your phone with the proper tag (default is #song then song).</li>\n
+\n
+<b>What is the proper format for a texted song?\n</b>
+<li>If your tag is "play", a "#play beatles" text will add Yesterday by The Beatles to your YouTube playlist.</li>\n
+\n
+<b>Why does it keep creating new playlists?\n</b>
+<li>This is determined by the Default Playlist Interval defined in the settings. If you set it to Never, playlists will only be created manually (via add playlist button).</li>\n
+\n
+<b>How is the specific video chosen?\n</b>
+<li>The top result from the keywords via a YouTube search.</li>\n
+\n
+<b>Why do I keep getting live versions of songs?  I want the album/studio version.\n</b>
+<li>Try adding "studio version" or "album version" at the end of the keywords, for instance "beatles yesterday album".</li>\n
+\n
+For more help, visit <a href="http://www.texttuneyt.appspot.com"><b>here</b></a>.
+</string>
+
+    <!-- settings menu -->
+    <string name="help_ok">Got It</string>
+    <string name="grid_title">Game of Life Grid</string>
+    <string name="settings_label">Settings.0</string>
+    <string name="settings_title">Game of Life Settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="color_coding_title">titllllle</string>
+    <string name="color_coding_summary">summaryyy</string>
+    <string name="new_playlist_summary">Amount of time between new songs added to playlist that 
+        TextTune will automatically create a new playlist</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

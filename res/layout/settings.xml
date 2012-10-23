@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/p" >
+
+    <ListPreference
+        android:id="@+id/interval"
+        android:defaultValue="60"
+        android:dialogTitle="Default Playlist Interval"
+        android:entries="@array/interval_options"
+        android:entryValues="@array/interval_options_values"
+        android:key="INTERVAL_VARIABLE"
+        android:summary="@string/new_playlist_summary"
+        android:title="Default Playlist Interval" />
+
+    <EditTextPreference
+        android:id="@+id/playlistname"
+        android:defaultValue="TextTune Playlist"
+        android:dialogTitle="Default Playlist Name"
+        android:key="PLAYLIST_NAME_VARIABLE"
+        android:summary="Unique Name of auto created Playlists"
+        android:title="Default Playlist Name" />
+
+    <EditTextPreference
+        android:id="@+id/tag"
+        android:defaultValue="song"
+        android:dialogTitle="Text Tag"
+        android:key="TAG_VARIABLE"
+        android:summary="Text Tag to trigger TextTune (always begins with #)"
+        android:title="Text Tag" />
+
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1326850203474
+java.specification.version,sysinfo,,,"1.6",1326850203474
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1326850203474
+java.version,sysinfo,,,"1.6.0_23",1326850203474
+java.vm.info,sysinfo,,,"mixed mode",1326850203474
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1326850203474
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1326850203474
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1326850203474
+java.vm.specification.version,sysinfo,,,"1.0",1326850203474
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1326850203474
+java.vm.version,sysinfo,,,"19.0-b09",1326850203474
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1326850253806
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1326850255366
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1326850255447
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1326850255641
+started,bundle,org.eclipse.compare,3.5.200.I20110525-0800,"org.eclipse.compare",1326850255646
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1326850255816
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1326850255818
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1326850255819
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.104.v201004211805,"org.eclipse.jst.ws.axis2.creation.ui",1326850255820
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.ui,1.0.103.v201004211805,"org.eclipse.jst.ws.axis2.consumption.ui",1326850255821
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.core,1.0.106.v201004211805,"org.eclipse.jst.ws.axis2.creation.core",1326850255822
+stopped,bundle,org.eclipse.jst.ws.axis2.consumption.core,1.0.105.v201004211805,"org.eclipse.jst.ws.axis2.consumption.core",1326850255822
+stopped,bundle,org.eclipse.jst.ws.axis2.ui,1.0.303.v201003110431,"org.eclipse.jst.ws.axis2.ui",1326850255823
+stopped,bundle,org.eclipse.jst.ws.axis2.core,1.0.204.v201004211805,"org.eclipse.jst.ws.axis2.core",1326850255824
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.ui,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.ui",1326850255828
+stopped,bundle,org.eclipse.jst.ws.creation.ui,1.0.609.v201103082016,"org.eclipse.jst.ws.creation.ui",1326850255829
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.ui,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.ui",1326850255831
+stopped,bundle,org.eclipse.jst.ws.consumption.ui,1.1.400.v201103082016,"org.eclipse.jst.ws.consumption.ui",1326850255833
+stopped,bundle,org.eclipse.jst.ws.consumption,1.0.600.v201103082016,"org.eclipse.jst.ws.consumption",1326850255835
+stopped,bundle,org.eclipse.jst.ws.cxf.consumption.core,1.0.0.v201003222311,"org.eclipse.jst.ws.cxf.consumption.core",1326850255836
+stopped,bundle,org.eclipse.jst.ws.cxf.creation.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.creation.core",1326850255838
+stopped,bundle,org.eclipse.jst.ws.cxf.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.cxf.ui",1326850255839
+stopped,bundle,org.eclipse.jst.ws.cxf.core,1.0.100.v201104022153,"org.eclipse.jst.ws.cxf.core",1326850255841
+stopped,bundle,org.eclipse.jst.ws.uddiregistry,1.0.500.v201004211805,"org.eclipse.jst.ws.uddiregistry",1326850255842
+stopped,bundle,org.eclipse.jst.ws.ui,1.0.403.v201004211805,"org.eclipse.jst.ws.ui",1326850255843
+stopped,bundle,org.eclipse.jst.ws,1.0.508.v201104071820,"org.eclipse.jst.ws",1326850255844
+stopped,bundle,org.eclipse.wst.ws.explorer,1.0.607.v201103082002,"org.eclipse.wst.ws.explorer",1326850255845
+stopped,bundle,org.eclipse.wst.wsdl.ui,1.2.403.v201108240515,"org.eclipse.wst.wsdl.ui",1326850255846
+stopped,bundle,org.eclipse.wst.ws.ui,1.1.200.v201004211805,"org.eclipse.wst.ws.ui",1326850255850
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.502.v201104071820,"org.eclipse.wst.wsi.ui",1326850255851

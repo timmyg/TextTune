@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rellayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notes_background_dk" >
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/on"
+        android:textOff=""
+        android:textOn="" />
+
+    <Button
+        android:id="@+id/addsong"
+        android:layout_width="100dp"
+        android:layout_height="155dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/toggleButton1"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/note_dk" />
+
+    <Button
+        android:id="@+id/newplaylist"
+        android:layout_width="100dp"
+        android:layout_height="155dp"
+        android:layout_alignBaseline="@+id/addsong"
+        android:layout_alignBottom="@+id/addsong"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="46dp"
+        android:background="@drawable/playlist_dk" />
+
+    <Button
+        android:id="@+id/myplaylists"
+        android:layout_width="100dp"
+        android:layout_height="155dp"
+        android:layout_alignLeft="@+id/addsong"
+        android:layout_below="@+id/addsong"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/playlists_dk" />
+
+    <Button
+        android:id="@+id/browseplaylists"
+        android:layout_width="100dp"
+        android:layout_height="155dp"
+        android:layout_alignBaseline="@+id/myplaylists"
+        android:layout_alignBottom="@+id/myplaylists"
+        android:layout_alignLeft="@+id/newplaylist"
+        android:background="@drawable/search_dk" />
+
+</RelativeLayout>

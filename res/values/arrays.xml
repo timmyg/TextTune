@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="interval_options">
+        <item>Always</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="interval_options_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>360</item>
+        <item>9989</item>
+    </string-array>
+    <string-array name="animation_speed_values">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="blocked_numbers">
+        <item>513-854-9984</item>
+        <item>513-436-3453</item>
+        <item>655-453-7656</item>
+    </string-array>
+
+</resources>

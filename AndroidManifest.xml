@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tgc.texttune"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"/>
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/noteicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <activity android:name=".TextTuneActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BlockedActivity"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TextTuneActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait" >
+            <intent-filter><!-- the ability to receive intent -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <service android:name=".SongService" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".SongService"
+            android:enabled="true" >
+            <intent-filter>
+                <receiver android:name=".SMSReceiver" />
+
+                <activity android:name=".TextTuneActivity" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".SMSReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
